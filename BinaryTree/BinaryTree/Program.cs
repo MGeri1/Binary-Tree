@@ -21,6 +21,7 @@ namespace BinaryTree
             myTree.Root.Right = new TreeNode(5);
             myTree.Root.Right.Right = new TreeNode(9);
             myTree.Root.Right.Right.Left = new TreeNode(4);
+			myTree.Root.Right.Left = new TreeNode(12);
 
             myTree.Dump();
             Console.ReadKey();
